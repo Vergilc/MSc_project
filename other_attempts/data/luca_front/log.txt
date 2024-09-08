@@ -1,0 +1,44 @@
+C:\Users\Yilun\Downloads\colmap-x64-windows-cuda>COLMAP.bat point_triangulator --database_path C:\docs\gaussian\gaussian-splatting\data\luca_front\database.db --image_path C:\docs\gaussian\gaussian-splatting\data\luca_front\images --input_path C:\docs\gaussian\gaussian-splatting\data\luca_front\sparse\model --output_path C:\docs\gaussian\gaussian-splatting\data\luca_front\sparse\triangulated
+I20240830 18:52:00.932277 10256 misc.cc:198]
+==============================================================================
+Loading model
+==============================================================================
+I20240830 18:52:00.939544 10256 incremental_mapper.cc:225] Loading database
+I20240830 18:52:00.942821 10256 database_cache.cc:65] Loading cameras...
+I20240830 18:52:00.943225 10256 database_cache.cc:75]  13 in 0.000s
+I20240830 18:52:00.943453 10256 database_cache.cc:83] Loading matches...
+I20240830 18:52:00.944596 10256 database_cache.cc:89]  18 in 0.001s
+I20240830 18:52:00.944878 10256 database_cache.cc:105] Loading images...
+I20240830 18:52:00.977010 10256 database_cache.cc:155]  13 in 0.032s (connected 13)
+I20240830 18:52:00.977278 10256 database_cache.cc:166] Building correspondence graph...
+I20240830 18:52:00.979227 10256 database_cache.cc:195]  in 0.002s (ignored 0)
+I20240830 18:52:00.979367 10256 timer.cc:91] Elapsed time: 0.001 [minutes]
+I20240830 18:52:00.982410 10256 incremental_mapper.cc:546] Iterative triangulation
+I20240830 18:52:00.982569 10256 incremental_mapper.cc:552] Triangulating image #1 (0)
+I20240830 18:52:00.982624 10256 incremental_mapper.cc:554] => Image sees 0 / 68 points
+I20240830 18:52:00.982920 10256 incremental_mapper.cc:552] Triangulating image #2 (1)
+I20240830 18:52:00.983032 10256 incremental_mapper.cc:554] => Image sees 0 / 85 points
+I20240830 18:52:00.983291 10256 incremental_mapper.cc:552] Triangulating image #3 (2)
+I20240830 18:52:00.983400 10256 incremental_mapper.cc:554] => Image sees 0 / 129 points
+I20240830 18:52:00.983649 10256 incremental_mapper.cc:552] Triangulating image #4 (3)
+I20240830 18:52:00.983759 10256 incremental_mapper.cc:554] => Image sees 0 / 95 points
+I20240830 18:52:00.984132 10256 incremental_mapper.cc:552] Triangulating image #5 (4)
+I20240830 18:52:00.984178 10256 incremental_mapper.cc:554] => Image sees 0 / 60 points
+I20240830 18:52:00.984603 10256 incremental_mapper.cc:552] Triangulating image #6 (5)
+I20240830 18:52:00.984723 10256 incremental_mapper.cc:554] => Image sees 0 / 95 points
+I20240830 18:52:00.985208 10256 incremental_mapper.cc:552] Triangulating image #7 (6)
+I20240830 18:52:00.985319 10256 incremental_mapper.cc:554] => Image sees 0 / 80 points
+I20240830 18:52:00.985792 10256 incremental_mapper.cc:552] Triangulating image #8 (7)
+I20240830 18:52:00.985968 10256 incremental_mapper.cc:554] => Image sees 2 / 95 points
+I20240830 18:52:00.986423 10256 incremental_mapper.cc:552] Triangulating image #9 (8)
+I20240830 18:52:00.986561 10256 incremental_mapper.cc:554] => Image sees 0 / 36 points
+I20240830 18:52:00.986797 10256 incremental_mapper.cc:552] Triangulating image #10 (9)
+I20240830 18:52:00.987016 10256 incremental_mapper.cc:554] => Image sees 0 / 39 points
+I20240830 18:52:00.987172 10256 incremental_mapper.cc:552] Triangulating image #11 (10)
+I20240830 18:52:00.987355 10256 incremental_mapper.cc:554] => Image sees 0 / 60 points
+I20240830 18:52:00.987607 10256 incremental_mapper.cc:552] Triangulating image #12 (11)
+I20240830 18:52:00.987772 10256 incremental_mapper.cc:554] => Image sees 0 / 28 points
+I20240830 18:52:00.987977 10256 incremental_mapper.cc:552] Triangulating image #13 (12)
+I20240830 18:52:00.988233 10256 incremental_mapper.cc:554] => Image sees 0 / 41 points
+I20240830 18:52:00.988431 10256 incremental_mapper.cc:563] Retriangulation and Global bundle adjustment
+I20240830 18:52:00.994034 10256 incremental_mapper.cc:572] Extracting colors
